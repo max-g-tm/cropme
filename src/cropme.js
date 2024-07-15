@@ -340,7 +340,7 @@
         self.properties.image.style.transform = transform.call(self)
       }
     }
-    self.properties.container.addEventListener('mousewheel', mousewheel)
+    self.properties.container.addEventListener('wheel', mousewheel)
   }
 
   function createCanvas(options) {
